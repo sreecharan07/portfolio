@@ -14,13 +14,13 @@ export default function Home() {
         </p>
         <div className="space-x-4">
           <a
-            href="/projects"
+            href="/projects/project.tsx"
             className="px-6 py-3 bg-blue-600 hover:bg-blue-500 rounded-lg text-white font-medium transition"
           >
-            View Projects
+            Projects
           </a>
           <a
-            href="/contact"
+            href="/contact/contact.tsx"
             className="px-6 py-3 border border-gray-500 hover:border-blue-500 rounded-lg text-gray-300 hover:text-blue-400 transition"
           >
             Contact Me

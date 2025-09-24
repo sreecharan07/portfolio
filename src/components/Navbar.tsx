@@ -9,9 +9,9 @@ export default function Navbar() {
 
   const links = [
     { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    { href: "/projects", label: "Projects" },
-    { href: "/contact", label: "Contact" },
+    { href: "/about/about.tsx", label: "About" },
+    { href: "/projects/project.tsx", label: "Projects" },
+    { href: "/contact/contact.tsx", label: "Contact" },
   ];
 
   return (
