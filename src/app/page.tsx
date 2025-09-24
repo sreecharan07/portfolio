@@ -31,7 +31,7 @@ export default function Home() {
       {/* Right Content */}
       <div className="flex-1 flex justify-center">
         <Image
-          src="/DSC_7917_copy.jpg"
+          src="/DSC_7917 copy.jpg"
           alt="Sree Charan"
           width={300}
           height={300}
