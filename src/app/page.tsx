@@ -9,7 +9,7 @@ export default function Home() {
           Hi, I’m <span className="text-blue-500">Sree Charan</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-400 mb-8">
-          🚀 Junior Data Scientist | Building intelligent solutions through
+          Associate Software Engineer | Building intelligent solutions through
           data, AI & innovation.
         </p>
         <div className="space-x-4">
@@ -24,6 +24,13 @@ export default function Home() {
             className="px-6 py-3 border border-gray-500 hover:border-blue-500 rounded-lg text-gray-300 hover:text-blue-400 transition"
           >
             Contact Me
+          </a>
+           <a
+            href="/Resume_SreeCharanAddala_v15.pdf"
+            download
+            className="px-6 py-3 bg-green-600 hover:bg-green-500 rounded-lg text-white font-medium transition"
+          >
+            Download Resume
           </a>
         </div>
       </div>
