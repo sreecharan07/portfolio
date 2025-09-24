@@ -1,4 +1,28 @@
+"use client";
+
+import { useState } from "react";
+
 export default function Contact() {
+  const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [status, setStatus] = useState("");
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setStatus("Sending...");
+
+    const res = await fetch("/api/send", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(form),
+    });
+
+    if (res.ok) {
+      setStatus("✅ Message sent successfully!");
+      setForm({ name: "", email: "", message: "" });
+    } else {
+      setStatus("❌ Something went wrong. Try again.");
+    }
+  }
   return (
     <section className="py-20">
       <h2 className="text-3xl md:text-4xl font-bold mb-6">Contact Me</h2>
