@@ -46,7 +46,7 @@ export default function Contact() {
     <section className="py-20">
       <h2 className="text-3xl md:text-4xl font-bold mb-6">Contact Me</h2>
       <p className="text-gray-400 mb-8">
-        Interested in collaborating or just want to say hi? Let's connect!
+        Interested in collaborating or just want to say hi? Fill out the form below.
       </p>
       
       <form onSubmit={handleSubmit} className="space-y-6 max-w-lg">
