@@ -1,17 +1,19 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(req: Request) {
   try {
+    const apiKey = process.env.RESEND_API_KEY;
+
     // Check if API key is configured
-    if (!process.env.RESEND_API_KEY) {
+    if (!apiKey) {
       return NextResponse.json(
         { error: "Resend API key not configured" },
         { status: 500 }
       );
     }
+
+    const resend = new Resend(apiKey);
 
     const body = await req.json();
 
@@ -61,18 +63,18 @@ export async function POST(req: Request) {
       `,
     });
 
-    return NextResponse.json({ 
-      success: true, 
+    return NextResponse.json({
+      success: true,
       message: "Email sent successfully!",
-      data: data 
+      data: data
     });
 
   } catch (error) {
     console.error("Email send error:", error);
-    
+
     // Return a user-friendly error message
     return NextResponse.json(
-      { 
+      {
         error: "Failed to send email. Please try again later.",
         details: error instanceof Error ? error.message : "Unknown error"
       },
