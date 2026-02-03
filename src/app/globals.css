@@ -1,55 +1,44 @@
 @import "tailwindcss";
 
 :root {
-  /* Light Mode - Professional Slate */
-  --background: #f8fafc;
-  /* Slate 50 */
-  --foreground: #0f172a;
-  /* Slate 900 */
+  /* Modern Dark Mode - Soft Slate Background */
+  --background: #0f172a;
+  /* Slate 900 - Much lighter than pure black */
+  --foreground: #f1f5f9;
+  /* Slate 100 - Crisp white text */
 
-  --primary: #2563eb;
-  /* Blue 600 */
+  /* Card Backgrounds */
+  --card-bg: #1e293b;
+  /* Slate 800 - Lighter cards */
+  --card-bg-hover: #334155;
+  /* Slate 700 - Hover state */
+
+  /* Vibrant Accents */
+  --primary: #8b5cf6;
+  /* Violet 500 - Brighter purple */
   --primary-foreground: #ffffff;
+  --primary-light: #a78bfa;
+  /* Violet 400 */
 
-  --secondary: #e2e8f0;
-  /* Slate 200 */
-  --secondary-foreground: #1e293b;
+  --secondary: #1e293b;
   /* Slate 800 */
+  --secondary-foreground: #f1f5f9;
 
-  --accent: #0f172a;
-  /* Slate 900 */
-  --accent-foreground: #f8fafc;
-  /* Slate 50 */
+  --accent: #06b6d4;
+  /* Cyan 500 - Bright cyan */
+  --accent-foreground: #ffffff;
+  --accent-light: #22d3ee;
+  /* Cyan 400 */
 
-  --muted: #64748b;
+  --muted: #cbd5e1;
+  /* Slate 300 - Lighter muted text */
+  --muted-dark: #64748b;
   /* Slate 500 */
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* Dark Mode - Deep & Rich */
-    --background: #020617;
-    /* Slate 950 */
-    --foreground: #f8fafc;
-    /* Slate 50 */
-
-    --primary: #3b82f6;
-    /* Blue 500 */
-    --primary-foreground: #ffffff;
-
-    --secondary: #1e293b;
-    /* Slate 800 */
-    --secondary-foreground: #f8fafc;
-    /* Slate 50 */
-
-    --accent: #f8fafc;
-    /* Slate 50 */
-    --accent-foreground: #020617;
-    /* Slate 950 */
-
-    --muted: #94a3b8;
-    /* Slate 400 */
-  }
+  /* Glassmorphism - Better visibility */
+  --glass-border: rgba(255, 255, 255, 0.15);
+  --glass-bg: rgba(30, 41, 59, 0.7);
+  /* Lighter glass effect */
 }
 
 @theme inline {
@@ -71,6 +60,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 /* Custom Scrollbar */
