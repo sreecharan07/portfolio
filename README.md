@@ -1,7 +1,7 @@
 # 🚀 Sree Charan | Portfolio
 
 <p align="center">
-  <a href="https://your-live-site.vercel.app">
+  <a href="https://portfolio-dppm.vercel.app/">
     <img src="https://img.shields.io/badge/Live-Demo-black?style=for-the-badge&logo=vercel" />
   </a>
   <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
@@ -76,7 +76,7 @@ This portfolio is structured with:
 
 ## 🌐 Live Demo
 
-👉 https://your-live-site.vercel.app
+👉 (https://portfolio-dppm.vercel.app/)
 
 ---
 
@@ -93,9 +93,9 @@ I’m **Sree Charan**, a Software Engineer with:
 
 ## 📫 Connect With Me
 
-* 💼 LinkedIn: (https://www.linkedin.com/in/sree-charan-addala-a5b51889/)
-* 🧑‍💻 GitHub: https://github.com/sreecharan07
-* 📧 Email: [GMail](mailto:charanaddalaa7@gmail.com)
+* 💼 [LinkedIn](https://www.linkedin.com/in/sree-charan-addala-a5b51889/)
+* 🧑‍💻 [GitHub](https://github.com/sreecharan07)
+* 📧 [Email](mailto:charanaddalaa7@gmail.com)
 
 ---
 
