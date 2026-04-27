@@ -46,49 +46,6 @@ I built this as a **product mindset project**:
 * **Styling:** Tailwind CSS / Responsive Design
 * **Deployment:** Vercel
 * **Version Control:** Git & GitHub
-
----
-
-## 🚀 Key Engineering Highlights
-
-* ⚡ Designed a **responsive UI system** adaptable across devices
-* ⚡ Structured project for **scalability & maintainability**
-* ⚡ Implemented **component-based architecture**
-* ⚡ Optimized load performance and rendering efficiency
-* ⚡ Built with a mindset of **production-readiness, not just demo**
-
-> 💡 Replace below with actual metrics once deployed
-
-* 📈 Page load time improved by **X%**
-* 📉 Reduced unnecessary re-renders by **X%**
-* 🚀 Achieved Lighthouse score of **X+**
-
----
-
-## 💼 Featured Work (What You Should Look At)
-
-### 🔹 1. Real-Time Affordability Engine *(FinTech)*
-
-* Predicts whether a user can afford a purchase
-* Uses income, expenses, and future liabilities
-* Outputs: **Safe / Risky / Overspending**
-* 👉 Solves a real problem banks don’t handle well
-
----
-
-### 🔹 2. Credit Optimization System
-
-* Suggests best credit usage strategy
-* Improves financial health & credit score
-* Focus on **data-driven decision systems**
-
----
-
-### 🔹 3. Splitwise + Budgeting Hybrid
-
-* Expense splitting + financial awareness
-* Designed for real-world usability
-
 ---
 
 ## 🏗 Project Structure
@@ -117,12 +74,6 @@ This portfolio is structured with:
 
 ---
 
-## 📸 Preview
-
-(Add screenshots or GIFs here)
-
----
-
 ## 🌐 Live Demo
 
 👉 https://your-live-site.vercel.app
@@ -142,9 +93,9 @@ I’m **Sree Charan**, a Software Engineer with:
 
 ## 📫 Connect With Me
 
-* 💼 LinkedIn: https://linkedin.com/in/your-profile
+* 💼 LinkedIn: (https://www.linkedin.com/in/sree-charan-addala-a5b51889/)
 * 🧑‍💻 GitHub: https://github.com/sreecharan07
-* 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+* 📧 Email: [GMail](mailto:charanaddalaa7@gmail.com)
 
 ---
 
@@ -157,12 +108,6 @@ It reflects:
 * How I **think**
 * How I **design systems**
 * How I **solve real problems**
-
----
-
-## 📜 License
-
-MIT License — feel free to use and build upon it.
 
 ---
 
